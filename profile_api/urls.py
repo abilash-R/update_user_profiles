@@ -23,7 +23,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/profile/', UserProfileView.as_view()),
 ]
-
-urlpatterns = [
-    
-]
